@@ -12,10 +12,10 @@ import wanakana
 # https://github.com/miurahr/pykakasi
 # https://discordpy.readthedocs.io/en/latest/ext/commands/api.html#discord.ext.commands.Bot
 
-subscription_key = AZURE_KEY
+subscription_key = AZURE_KEY    # Azure API key
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
-location = AZURE_LOCATION
+location = AZURE_LOCATION   # Get you Azure region
 
 path = '/translate'
 constructed_url = endpoint + path
@@ -130,4 +130,4 @@ async def description(ctx):
         "\n .rom = Romajii -> English, Estonian (Not perfect)```")
 
 
-bot.run('DISCORD_KEY')
+bot.run(DISCORD_KEY)    # Discord Developer Bot Key
