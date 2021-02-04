@@ -1,0 +1,4 @@
+requests~=2.25.1
+pykakasi~=2.0.4
+discord~=1.0.1
+wanakana-python

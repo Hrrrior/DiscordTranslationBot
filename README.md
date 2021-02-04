@@ -1,0 +1,1 @@
+Just a simple weeb discord translation bot made for fun. Uses Azure Translation API and wanakana, pykakasi modules to translate from Estonian, English to Japanese, Romajii.
